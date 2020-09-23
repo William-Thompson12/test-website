@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign In</title>
+</head>
+<body>
+  
+    <div class="log-in">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()" >Log In</button>
+                <button type="button" class="toggle-btn" onclick="register()" >Register</button>
+        
+            </div>
+          
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User Name" required>
+                <input type="text" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="check-box"> <span class="remember">Remember Password</span>
+                <button type="submit" class="submit-btn">Log In</button>
+            </form>
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="User Name" required>
+                <input type="email" class="input-field" placeholder="Email" required>
+                <input type="text" class="input-field" placeholder="Password" required>
+                <input type="text" class="input-field" placeholder="Confirm Password" required>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+        </div>
+        
+    </div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>
